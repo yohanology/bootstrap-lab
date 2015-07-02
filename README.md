@@ -1,6 +1,10 @@
 Week 1: Bootstrap Lab
 =================
 
+#### 
+- [Bootstrap Lab on BitBalloon](http://bootstrap-lab.bitballoon.com/)
+- [Screenshots](images/screenshots)
+
 #### Note: Please refer to the screenshots as a requirement at `images/screenshots`
 
 Previously, we have learn about user interface and how people interact with websites, which is called front-end. We have learnt basic HTML and CSS. HTML defines what elements to be show on the webpage. CSS defined the styling of these elements.
