@@ -36,24 +36,44 @@
           </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
+          <ul class="nav navbar-nav navbar-left text-uppercase" id="left-links">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Conference</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Pro</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" id="search-nav">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+          <ul class="nav navbar-nav navbar-right" id="right-links">
+            <li class="glyphicon glyphicon-user"><a href="#"></a></li>
+            <li class="glyphicon glyphicon-info-sign"><a href="#"></a></li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Help</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
         </div>
       </div>
     </nav>
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-lg-3 visible-lg sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="menu-sidebar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                All channels
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+              </ul>
+            </div>
+            </ul>
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">All Channels<span class="sr-only">(current)</span></a></li>
             <li><a href="#">Reports</a></li>
             <li><a href="#">Analytics</a></li>
             <li><a href="#">Export</a></li>
@@ -71,7 +91,7 @@
             <li><a href="">Another nav item</a></li>
           </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-sm-12 col-lg-9 main">
           <h1>News Content</h1>
         </div>
       </div>

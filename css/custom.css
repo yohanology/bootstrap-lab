@@ -1,1 +1,21 @@
 /* You can include your custom styling here */
+.navbar-default {
+	background-color: #fff;
+	border-bottom: 2px solid #d9e0e2;
+}
+
+#left-links {
+	margin-left: 6px;
+}
+
+.sidebar {
+	background-color: #fff
+}
+#menu-sidebar {
+	background-color: #ff3c1f;
+	color: #fff;
+}
+
+#menu-sidebar {
+	text-transform: uppercase;
+}
