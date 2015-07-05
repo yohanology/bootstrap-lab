@@ -1,4 +1,16 @@
 /* You can include your custom styling here */
+body {
+	color: #4e5860;
+}
+
+h1,h2,h3,h4,h5 {
+	font-weight: normal;
+}
+
+a {
+	color: #ff3c1f;
+}
+
 .navbar-default {
 	background-color: #fff;
 	border-bottom: 2px solid #d9e0e2;
@@ -12,6 +24,10 @@
 	background-color: #fff
 }
 
+.nav-sidebar {
+	margin: 0 auto;
+}
+
 #menu-sidebar {
 	background-color: #ff3c1f;
 	color: #fff;
@@ -19,6 +35,29 @@
 
 #menu-sidebar {
 	text-transform: uppercase;
+	width: 100%;
+}
+
+#menu-sidebar {
+	text-align: left;
+}
+
+#menu-sidebar .caret {
+	float: right;
+	margin-top: 10px;
+}
+
+.filter-sidebar {
+	margin-top: 10px;
+	width: 100%;
+}
+
+.btn-default {
+	text-transform: uppercase;
+}
+
+.list-sidebar {
+	padding-left: 0;
 }
 
 @media (min-width: 1200px) {
@@ -37,6 +76,21 @@
 	background-color: #fff;
 }
 
+.list-sidebar li {
+	margin-top: 12px;
+	border-top: 1px solid #eceff0;
+	padding-top: 5px;
+}
+
 .sidebar-img {
 	float: left;
+	margin: 8px;
+}
+
+.sidebar-news {
+	margin: 0 6px;
+}
+
+.sidebar-news h5 {
+	font-style: normal;
 }
