@@ -21,10 +21,11 @@
 	text-transform: uppercase;
 }
 
-.main {
+@media (min-width: 1200px) {
+	.col-lg-9.main {
 		margin-left: 319.25px;
 		background-color: #f8f9fa;
-
+}
 }
 
 .top-message {
@@ -32,6 +33,10 @@
 }
 
 .news-content {
-	border: 2px solid #e7e7e7;
+	border: 2px solid #eceff0;
 	background-color: #fff;
+}
+
+.sidebar-img {
+	float: left;
 }
