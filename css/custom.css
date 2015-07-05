@@ -11,6 +11,7 @@
 .sidebar {
 	background-color: #fff
 }
+
 #menu-sidebar {
 	background-color: #ff3c1f;
 	color: #fff;
@@ -18,4 +19,19 @@
 
 #menu-sidebar {
 	text-transform: uppercase;
+}
+
+.main {
+		margin-left: 319.25px;
+		background-color: #f8f9fa;
+
+}
+
+.top-message {
+	text-align: center;
+}
+
+.news-content {
+	border: 2px solid #e7e7e7;
+	background-color: #fff;
 }
