@@ -20,8 +20,23 @@ a {
 	margin-left: 6px;
 }
 
+#left-links a:hover {
+	color: #ff3c1f;
+}
+
+#left-links li:hover {
+	border-bottom: 2px solid #ff3c1f;
+}
 .sidebar {
 	background-color: #fff
+}
+
+#right-links a {
+	color: #4e5860;
+}
+
+#right-links a:hover {
+	color: #000;
 }
 
 .nav-sidebar {
