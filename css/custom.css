@@ -26,13 +26,14 @@ a {
 
 #left-links li:hover {
 	border-bottom: 2px solid #ff3c1f;
+	margin-bottom: -2px;
 }
 .sidebar {
 	background-color: #fff
 }
 
 #right-links a {
-	color: #4e5860;
+	color: #777;
 }
 
 #right-links a:hover {
@@ -44,17 +45,15 @@ a {
 }
 
 #menu-sidebar {
-	background-color: #ff3c1f;
-	color: #fff;
-}
-
-#menu-sidebar {
 	text-transform: uppercase;
 	width: 100%;
+	background-color: #ff3c1f;
+	color: #fff;
+	text-align: left;
 }
 
-#menu-sidebar {
-	text-align: left;
+.dropdown-menu {
+	width: 100%;
 }
 
 #menu-sidebar .caret {
@@ -108,4 +107,9 @@ a {
 
 .sidebar-news h5 {
 	font-style: normal;
+}
+
+.news-content {
+	padding: 20px;
+	margin: 10px;
 }
