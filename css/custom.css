@@ -28,6 +28,7 @@ a {
 	border-bottom: 2px solid #ff3c1f;
 	margin-bottom: -2px;
 }
+
 .sidebar {
 	background-color: #fff
 }
@@ -40,6 +41,9 @@ a {
 	color: #000;
 }
 
+.social-navbar .btn-default {
+	border: none;
+}
 .nav-sidebar {
 	margin: 0 auto;
 }
