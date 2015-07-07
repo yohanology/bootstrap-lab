@@ -29,10 +29,6 @@ a {
 	margin-bottom: -2px;
 }
 
-.sidebar {
-	background-color: #fff
-}
-
 #right-links a {
 	color: #777;
 }
@@ -41,32 +37,30 @@ a {
 	color: #000;
 }
 
-.social-navbar .btn-default {
-	border: none;
-}
-.nav-sidebar {
-	margin: 0 auto;
+.sidebar {
+	background-color: #fff;
+	overflow: visible;
 }
 
-#menu-sidebar {
-	text-transform: uppercase;
+.menu-sidebar {
+	position: absolute;
 	width: 100%;
+}
+
+#dropdown-channels-sidebar {
+	text-transform: uppercase;
 	background-color: #ff3c1f;
 	color: #fff;
 	text-align: left;
-}
-
-.dropdown-menu {
 	width: 100%;
 }
 
-#menu-sidebar .caret {
-	float: right;
-	margin-top: 10px;
+.button-group-sidebar {
+	margin: 10px auto;
+	width: 100%;
 }
 
 .filter-sidebar {
-	margin-top: 10px;
 	width: 100%;
 }
 
@@ -74,15 +68,48 @@ a {
 	text-transform: uppercase;
 }
 
-.list-sidebar {
-	padding-left: 0;
+.latest-icon {
+	margin-right: 5px;
+}
+
+.popular-icon {
+	margin-right: 5px;
+}
+
+.articles-sidebar {
+	margin-top: 100px;
+	overflow: scroll;
+	height: 72vh;
+}
+
+.article-sidebar {
+	height: auto;
+	border: 1px solid #eceff0;
+}
+
+.article-img-sidebar {
+	padding: 10px 8px 0px 8px;
+}
+
+.article-title-sidebar {
+	padding: 0;
+}
+
+.img-responsive {
+	width: 100%;
 }
 
 @media (min-width: 1200px) {
-	.col-lg-9.main {
-		margin-left: 319.25px;
-		background-color: #f8f9fa;
+	.main {
+		margin-left: 315.25px;
 }
+	.sidebar {
+		width: 315.25px;
+	}
+}
+
+.main {
+	background-color: #f8f9fa;
 }
 
 .top-message {
@@ -94,12 +121,6 @@ a {
 	background-color: #fff;
 }
 
-.list-sidebar li {
-	margin-top: 12px;
-	border-top: 1px solid #eceff0;
-	padding-top: 5px;
-}
-
 .sidebar-img {
 	float: left;
 	margin: 8px;
@@ -109,11 +130,8 @@ a {
 	margin: 0 6px;
 }
 
-.sidebar-news h5 {
-	font-style: normal;
-}
-
 .news-content {
 	padding: 20px;
 	margin: 10px;
+	min-height: 700px;
 }
